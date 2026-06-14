@@ -7,7 +7,7 @@ def main():
     SCREEN_WIDTH = 800
     SCREEN_HEIGHT = 600
     SPRITE_WIDTH, SPRITE_HEIGHT = 50, 50
-    FPS = 60  # Higher FPS for smoother movement but faster sprite movement
+    FPS = 60  # Higher FPS for smoother movement bsut faster sprite movement
 
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     pygame.display.set_caption("Move a Square")
