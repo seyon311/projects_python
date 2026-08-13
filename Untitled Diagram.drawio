@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="2OGYR82N5ixK8kQnAe4T">
+    <mxGraphModel dx="2020" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aFBkz3HsAID2phnDqG31-4" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aFBkz3HsAID2phnDqG31-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="start" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="end" vertex="1">
+          <mxGeometry height="60" width="120" x="335" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="name = input(&quot;Hello this is chatbot what is your name?&quot;)" vertex="1">
+          <mxGeometry height="60" width="230" x="280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="print(f&quot;Hello {name}, How are you feeling?&quot;)" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-9" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-14" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="aFBkz3HsAID2phnDqG31-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Read feeling" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-15" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-17" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aFBkz3HsAID2phnDqG31-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="if feeling == happy:" vertex="1">
+          <mxGeometry height="80" width="245" x="190" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-13" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.7;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="aFBkz3HsAID2phnDqG31-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-28" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aFBkz3HsAID2phnDqG31-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="484.94" />
+              <mxPoint x="790" y="1020" />
+            </Array>
+            <mxPoint x="790" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="print(&quot;Oh thats great I hope you have a nice day!&quot;)" vertex="1">
+          <mxGeometry height="110" width="120" x="590" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-20" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="aFBkz3HsAID2phnDqG31-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-23" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aFBkz3HsAID2phnDqG31-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="elif feeling = sad:" vertex="1">
+          <mxGeometry height="80" width="190" x="350" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-29" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-21" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="print(&quot;Try listening to some upbeat songs!&quot;)" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-26" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="aFBkz3HsAID2phnDqG31-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="else:" vertex="1">
+          <mxGeometry height="80" width="150" x="470" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-27" edge="1" parent="1" source="aFBkz3HsAID2phnDqG31-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aFBkz3HsAID2phnDqG31-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="770" />
+              <mxPoint x="100" y="280" />
+              <mxPoint x="200" y="280" />
+              <mxPoint x="200" y="290" />
+            </Array>
+            <mxPoint x="200" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFBkz3HsAID2phnDqG31-25" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="print(&quot;Please say happy/sad&quot;)" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="740" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
